@@ -2,7 +2,7 @@
   "appId": "com.mathlens.web",
   "appName": "MathLens",
   "bundledWebRuntime": false,
-  "webDir": "public",
+  "webDir": ".",
   "plugins": {},
   "android": {
     "allowMixedContent": true
