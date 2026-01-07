@@ -25,8 +25,8 @@ A web-based app that scans math puzzles with three bubbles using camera, OCR, an
 5. Build APK.
 
 ## Online Build
-- **Netlify**: Upload the `mathlens-web` folder; it auto-detects `index.html` at root and deploys.
-- **Vercel**: Upload the `mathlens-web` folder; it auto-detects `index.html` at root and deploys.
+- **Netlify**: Upload the `public` folder (inside `mathlens-web`); it contains the built web app files.
+- **Vercel**: Upload the `public` folder (inside `mathlens-web`); it contains the built web app files.
 - For mobile, use Capacitor locally or CI.
 
 ## Usage
