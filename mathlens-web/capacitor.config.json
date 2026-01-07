@@ -1,0 +1,10 @@
+{
+  "appId": "com.mathlens.web",
+  "appName": "MathLens",
+  "bundledWebRuntime": false,
+  "webDir": "public",
+  "plugins": {},
+  "android": {
+    "allowMixedContent": true
+  }
+}

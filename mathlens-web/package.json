@@ -1,0 +1,24 @@
+{
+  "name": "mathlens-web",
+  "version": "1.0.0",
+  "description": "MathLens web app for scanning math puzzles",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "npx serve public",
+    "build": "echo 'No build step needed for static web app'",
+    "cap": "npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "mathjs": "^11.9.1",
+    "opencv.js": "^1.2.1",
+    "tesseract.js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0"
+  },
+  "keywords": ["math", "ocr", "camera", "mobile"],
+  "author": "",
+  "license": "MIT"
+}

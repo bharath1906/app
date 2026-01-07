@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathLens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="mode-selection" class="screen">
+            <h1>Select Mode</h1>
+            <button id="low-to-high">Lowest to Highest</button>
+            <button id="high-to-low">Highest to Lowest</button>
+        </div>
+        <div id="camera-screen" class="screen hidden">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="overlay"></canvas>
+            <button id="back">Back</button>
+        </div>
+    </div>
+    <script src="https://docs.opencv.org/4.8.0/opencv.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@11.9.1/lib/browser/math.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.1.1/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
